@@ -4,15 +4,15 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.09 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> Parameter xsthdpdir set to Y:/Desktop/CS-M152A-Final-Project/xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.13 secs
  
---> Reading design: displayLivesModule.prj
+--> Reading design: display.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -39,17 +39,17 @@ TABLE OF CONTENTS
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" into library work
-Parsing module <displayLivesModule>.
-Parsing verilog file "ddr_definitions.v" included at line 24.
+Analyzing Verilog file "\\psf\home\Desktop\CS-M152A-Final-Project\display.v" into library work
+Parsing module <display>.
+Parsing verilog file "ddr_definitions.v" included at line 4.
 
 
 Total REAL time to Xst completion: 3.00 secs
-Total CPU time to Xst completion: 2.64 secs
+Total CPU time to Xst completion: 2.75 secs
  
 --> 
 
-Total memory usage is 137252 kilobytes
+Total memory usage is 136996 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
