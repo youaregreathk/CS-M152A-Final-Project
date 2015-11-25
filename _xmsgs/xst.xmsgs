@@ -5,148 +5,58 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\MichaelShea\Desktop\v2\main.v" Line 59: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">life</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 30: &lt;<arg fmt="%s" index="1">STATE_BITS</arg>&gt; is not declared.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\MichaelShea\Desktop\v2\random.v" Line 50: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">1</arg>-bit target.
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 31: &lt;<arg fmt="%s" index="1">NUM_ARROWS_BITS</arg>&gt; is not declared.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\MichaelShea\Desktop\v2\main.v" Line 60: Assignment to <arg fmt="%s" index="1">randomNum</arg> ignored, since the identifier is never used
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 32: &lt;<arg fmt="%s" index="1">NUM_ARROWS_BITS</arg>&gt; is not declared.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\MichaelShea\Desktop\v2\score.v" Line 98: Result of <arg fmt="%d" index="1">4</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">3</arg>-bit target.
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 33: &lt;<arg fmt="%s" index="1">NUM_ARROWS_BITS</arg>&gt; is not declared.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="189" delta="old" >"C:\Users\MichaelShea\Desktop\v2\main.v" Line 61: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">life</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">1</arg>-bit.
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 34: &lt;<arg fmt="%s" index="1">NUM_ARROWS_BITS</arg>&gt; is not declared.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\MichaelShea\Desktop\v2\display.v" Line 65: Result of <arg fmt="%d" index="1">14</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 36: &lt;<arg fmt="%s" index="1">NUM_ARROWS_BITS</arg>&gt; is not declared.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\MichaelShea\Desktop\v2\display.v" Line 66: Result of <arg fmt="%d" index="1">10</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 37: &lt;<arg fmt="%s" index="1">NUM_ARROWS_BITS</arg>&gt; is not declared.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\MichaelShea\Desktop\v2\display.v" Line 67: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 43: &lt;<arg fmt="%s" index="1">NUM_ARROWS_BITS</arg>&gt; is not declared.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\MichaelShea\Desktop\v2\display.v" Line 73: Result of <arg fmt="%d" index="1">14</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 63: &lt;<arg fmt="%s" index="1">STATE_GAME</arg>&gt; is not declared.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\MichaelShea\Desktop\v2\display.v" Line 74: Result of <arg fmt="%d" index="1">10</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 67: &lt;<arg fmt="%s" index="1">num3</arg>&gt; is not declared.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\MichaelShea\Desktop\v2\display.v" Line 75: Result of <arg fmt="%d" index="1">7</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">5</arg>-bit target.
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 68: &lt;<arg fmt="%s" index="1">num2</arg>&gt; is not declared.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\Users\MichaelShea\Desktop\v2\display.v" Line 83: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 117: &lt;<arg fmt="%s" index="1">SEG_ZERO</arg>&gt; is not declared.
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"C:\Users\MichaelShea\Desktop\v2\main.v" Line 65: Assignment to <arg fmt="%s" index="1">partialArrow</arg> ignored, since the identifier is never used
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 118: &lt;<arg fmt="%s" index="1">SEG_ONE</arg>&gt; is not declared.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\MichaelShea\Desktop\v2\main.v</arg>&quot; line <arg fmt="%s" index="2">60</arg>: Output port &lt;<arg fmt="%s" index="3">random_num</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">randomModule</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 119: &lt;<arg fmt="%s" index="1">SEG_TWO</arg>&gt; is not declared.
 </msg>
 
-<msg type="info" file="Xst" num="3210" delta="new" >&quot;<arg fmt="%s" index="1">C:\Users\MichaelShea\Desktop\v2\main.v</arg>&quot; line <arg fmt="%s" index="2">65</arg>: Output port &lt;<arg fmt="%s" index="3">partialArrow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">collisionModule</arg>&gt; is unconnected or connected to loadless signal.
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 120: &lt;<arg fmt="%s" index="1">SEG_THREE</arg>&gt; is not declared.
 </msg>
 
-<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">life</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 121: &lt;<arg fmt="%s" index="1">SEG_FOUR</arg>&gt; is not declared.
 </msg>
 
-<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram_numTracker[1]_PWR_8_o_wide_mux_31_OUT</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 122: &lt;<arg fmt="%s" index="1">SEG_FIVE</arg>&gt; is not declared.
 </msg>
 
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">life_reg_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">score</arg>&gt;.
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">score_reg_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">score</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Maddsub_is_posedge_correctHit_multiplier_reg[3]_MuLt_15_OUT1_13&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">score_reg_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">score</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Maddsub_is_posedge_correctHit_multiplier_reg[3]_MuLt_15_OUT1_12&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">score_reg_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">score</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Maddsub_is_posedge_correctHit_multiplier_reg[3]_MuLt_15_OUT1_11&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">score_reg_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">score</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Maddsub_is_posedge_correctHit_multiplier_reg[3]_MuLt_15_OUT1_10&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">score_reg_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">score</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Maddsub_is_posedge_correctHit_multiplier_reg[3]_MuLt_15_OUT1_9&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">score_reg_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">score</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Maddsub_is_posedge_correctHit_multiplier_reg[3]_MuLt_15_OUT1_8&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">score_reg_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">score</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Maddsub_is_posedge_correctHit_multiplier_reg[3]_MuLt_15_OUT1_3&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">score_reg_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">score</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Maddsub_is_posedge_correctHit_multiplier_reg[3]_MuLt_15_OUT1_7&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">score_reg_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">score</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Maddsub_is_posedge_correctHit_multiplier_reg[3]_MuLt_15_OUT1_2&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">score_reg_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">score</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Maddsub_is_posedge_correctHit_multiplier_reg[3]_MuLt_15_OUT1_6&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">score_reg_12</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">score</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Maddsub_is_posedge_correctHit_multiplier_reg[3]_MuLt_15_OUT1_1&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">score_reg_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">score</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Maddsub_is_posedge_correctHit_multiplier_reg[3]_MuLt_15_OUT1_5&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">score_reg_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">score</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Maddsub_is_posedge_correctHit_multiplier_reg[3]_MuLt_15_OUT1_0&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">score_reg_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">score</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Maddsub_is_posedge_correctHit_multiplier_reg[3]_MuLt_15_OUT1_4&gt; </arg>
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">scoreModule/life_reg_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">scoreModule/life_reg_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">scoreModule/life_reg_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">collisionModule/hasPressedPartialArrow</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">main</arg>&gt;.
-</msg>
-
-<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">clkModule/display_dv_20</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">main</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">clkModule/display_dv_19</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">main</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">arrowModule/is_posedge_metronome_clk</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">main</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;collisionModule/is_posedge_metronome_clk&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">arrowModule/posedge_metronome_clk_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">main</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;collisionModule/posedge_metronome_clk_0&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">arrowModule/posedge_metronome_clk_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">main</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;collisionModule/posedge_metronome_clk_1&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">arrowModule/posedge_metronome_clk_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">main</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;collisionModule/posedge_metronome_clk_2&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="3203" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">collisionModule/keysPressed_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">main</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;collisionModule/keysPressed_3&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="3203" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">arrowModule/arrow3_reg_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">main</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;arrowModule/arrow3_reg_3&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="3203" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">arrowModule/arrow2_reg_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">main</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;arrowModule/arrow2_reg_3&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="3203" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">arrowModule/arrow1_reg_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">main</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;arrowModule/arrow1_reg_3&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="3203" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">arrowModule/arrow0_reg_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">main</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;arrowModule/arrow0_reg_3&gt; </arg>
-</msg>
-
-<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+<msg type="error" file="HDLCompiler" num="598" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 21: Module &lt;<arg fmt="%s" index="1">displayLivesModule</arg>&gt; ignored due to previous errors.
 </msg>
 
 </messages>

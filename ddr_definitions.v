@@ -43,9 +43,6 @@ parameter ARROW_DOWN_RIGHT = 18,
 parameter ARROW_LEFT_RIGHT = 19,
 parameter ARROW_NONE = 20,
 
-
-
-
 //Segment settings
 // arrows to be displayed
 parameter SEG_ARROW_UP = 7'b1111110,

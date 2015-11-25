@@ -1,13 +1,30 @@
 `timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer: 
+// 
+// Create Date:    01:39:39 11/25/2015 
+// Design Name: 
+// Module Name:    displayLivesModule 
+// Project Name: 
+// Target Devices: 
+// Tool versions: 
+// Description: 
+//
+// Dependencies: 
+//
+// Revision: 
+// Revision 0.01 - File Created
+// Additional Comments: 
+//
+//////////////////////////////////////////////////////////////////////////////////
+module displayLivesModule(
+		// outputs
+		seg, an,
+		// inputs
+		clk, metronome_clk, state, cur_arrow0, cur_arrow1, cur_arrow2, cur_arrow3, lives
+    );
 
-module display
-#(`include "ddr_definitions.v")
-(
-	// outputs
-	seg, an,
-	// inputs
-	clk, metronome_clk, state, cur_arrow0, cur_arrow1, cur_arrow2, cur_arrow3, score, comboCount, combo_enable);
-	
 input clk;
 input metronome_clk;
 input [STATE_BITS:0] state;
@@ -15,13 +32,9 @@ input [NUM_ARROWS_BITS:0] cur_arrow3;
 input [NUM_ARROWS_BITS:0] cur_arrow2;
 input [NUM_ARROWS_BITS:0] cur_arrow1;
 input [NUM_ARROWS_BITS:0] cur_arrow0;
-input [13:0] score;
-input [13:0] comboCount;
-input combo_enable;
+input [2:0] lives = 3'b101;
 reg [NUM_ARROWS_BITS:0] num0;
 reg [NUM_ARROWS_BITS:0] num1;
-reg [NUM_ARROWS_BITS:0] num2;
-reg [NUM_ARROWS_BITS:0] num3;
 
 output [6:0] seg;
 output [3:0] an;
@@ -57,7 +70,7 @@ always @(posedge clk) begin
                 num0 = cur_arrow0;
             end
         end
-        STATE_PAUSE:
+ /*       STATE_PAUSE:
         begin
             if (combo_enable)
             begin
@@ -76,11 +89,11 @@ always @(posedge clk) begin
 	            num3 = score % 10;
             end
             // convert nums to binary count
-        end
+        end*/
     endcase
 
 
-	numTracker = numTracker + 1;
+/*	numTracker = numTracker + 1;
 	case(numTracker)
 		0: begin
 			anToDisplay = 4'b0111;
@@ -98,7 +111,7 @@ always @(posedge clk) begin
 			anToDisplay = 4'b1110;
 			numToDisplay = num3;
 		end
-	endcase
+	endcase*/
     
     case(numToDisplay)
         0: segToDisplay = SEG_ZERO;
@@ -107,7 +120,7 @@ always @(posedge clk) begin
         3: segToDisplay = SEG_THREE;
         4: segToDisplay = SEG_FOUR;
         5: segToDisplay = SEG_FIVE;
-        6: segToDisplay = SEG_SIX;
+ /*       6: segToDisplay = SEG_SIX;
         7: segToDisplay = SEG_SEVEN;
         8: segToDisplay = SEG_EIGHT;
         9: segToDisplay = SEG_NINE;
@@ -121,7 +134,7 @@ always @(posedge clk) begin
         17: segToDisplay = SEG_ARROW_DOWN_LEFT;
         18: segToDisplay = SEG_ARROW_DOWN_RIGHT;
         19: segToDisplay = SEG_ARROW_LEFT_RIGHT;
-        20: segToDisplay = SEG_ARROW_NONE;
+        20: segToDisplay = SEG_ARROW_NONE;*/
     endcase
 end
 
@@ -129,3 +142,4 @@ assign seg = segToDisplay;
 assign an = anToDisplay;
 	
 endmodule
+
