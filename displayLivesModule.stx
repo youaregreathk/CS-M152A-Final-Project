@@ -41,30 +41,17 @@ TABLE OF CONTENTS
 =========================================================================
 Analyzing Verilog file "\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" into library work
 Parsing module <displayLivesModule>.
-ERROR:HDLCompiler:69 - "\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 30: <STATE_BITS> is not declared.
-ERROR:HDLCompiler:69 - "\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 31: <NUM_ARROWS_BITS> is not declared.
-ERROR:HDLCompiler:69 - "\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 32: <NUM_ARROWS_BITS> is not declared.
-ERROR:HDLCompiler:69 - "\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 33: <NUM_ARROWS_BITS> is not declared.
-ERROR:HDLCompiler:69 - "\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 34: <NUM_ARROWS_BITS> is not declared.
-ERROR:HDLCompiler:69 - "\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 36: <NUM_ARROWS_BITS> is not declared.
-ERROR:HDLCompiler:69 - "\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 37: <NUM_ARROWS_BITS> is not declared.
-ERROR:HDLCompiler:69 - "\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 43: <NUM_ARROWS_BITS> is not declared.
-ERROR:HDLCompiler:69 - "\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 63: <STATE_GAME> is not declared.
-ERROR:HDLCompiler:69 - "\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 67: <num3> is not declared.
-ERROR:HDLCompiler:69 - "\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 68: <num2> is not declared.
-ERROR:HDLCompiler:69 - "\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 117: <SEG_ZERO> is not declared.
-ERROR:HDLCompiler:69 - "\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 118: <SEG_ONE> is not declared.
-ERROR:HDLCompiler:69 - "\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 119: <SEG_TWO> is not declared.
-ERROR:HDLCompiler:69 - "\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 120: <SEG_THREE> is not declared.
-ERROR:HDLCompiler:69 - "\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 121: <SEG_FOUR> is not declared.
-ERROR:HDLCompiler:69 - "\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 122: <SEG_FIVE> is not declared.
-ERROR:HDLCompiler:598 - "\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 21: Module <displayLivesModule> ignored due to previous errors.
-Verilog file \\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v ignored due to errors
+Parsing verilog file "ddr_definitions.v" included at line 24.
+
+
+Total REAL time to Xst completion: 3.00 secs
+Total CPU time to Xst completion: 2.73 secs
+ 
 --> 
 
-Total memory usage is 136668 kilobytes
+Total memory usage is 137380 kilobytes
 
-Number of errors   :   18 (   0 filtered)
+Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

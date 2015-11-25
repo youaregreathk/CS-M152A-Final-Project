@@ -18,7 +18,11 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module displayLivesModule(
+`timescale 1ns / 1ps
+
+module displayLivesModule
+#(`include "ddr_definitions.v")
+(
 		// outputs
 		seg, an,
 		// inputs
@@ -35,6 +39,8 @@ input [NUM_ARROWS_BITS:0] cur_arrow0;
 input [2:0] lives = 3'b101;
 reg [NUM_ARROWS_BITS:0] num0;
 reg [NUM_ARROWS_BITS:0] num1;
+reg [NUM_ARROWS_BITS:0] num2;
+reg [NUM_ARROWS_BITS:0] num3;
 
 output [6:0] seg;
 output [3:0] an;

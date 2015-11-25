@@ -63,10 +63,17 @@ arrow arrowModule(.state(state), .clk(clk), .metronome_clk(oneHz), .next_arrow(r
 
 display displayModule (.seg(seg), .an(an), .clk(display), .metronome_clk(oneHz), .state(state),  .cur_arrow0(curArrow0), .cur_arrow1(curArrow1), .cur_arrow2(curArrow2), .cur_arrow3(curArrow3), .score(score), .comboCount(comboCount), .combo_enable(combo_en));
 collision collisionModule(.partialArrow(partialArrow), .clk(clk), .state(state), .metronome_clk(oneHz), .btnU(btnU), .btnD(btnD), .btnL(btnL), .btnR(btnR), .arrow(curArrow3), .correctHit(correctHit), .incorrectHit(incorrectHit));
-life lifeModule()
+life displayLivesModule(.seg(seg), .an(an), .clk(display), .metronome_clk(oneHz), .state(state), .cur_arrow0(curArrow0), .cur_arrow1(curArrow1), .cur_arrow2(curArrow2), .cur_arrow3(curArrow3), .lives(3'b101);
 //assign randomArrow = 15;
 //assign score = randomNum;
 //assign comboCount = 24;
+
+module displayLivesModule(
+		// outputs
+		seg, an,
+		// inputs
+		clk, metronome_clk, state, cur_arrow0, cur_arrow1, cur_arrow2, cur_arrow3, lives
+    );
 
 assign led[7] = multiplier[3];
 assign led[6] = multiplier[2];

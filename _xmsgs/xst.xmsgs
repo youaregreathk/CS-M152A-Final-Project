@@ -5,59 +5,5 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 30: &lt;<arg fmt="%s" index="1">STATE_BITS</arg>&gt; is not declared.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 31: &lt;<arg fmt="%s" index="1">NUM_ARROWS_BITS</arg>&gt; is not declared.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 32: &lt;<arg fmt="%s" index="1">NUM_ARROWS_BITS</arg>&gt; is not declared.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 33: &lt;<arg fmt="%s" index="1">NUM_ARROWS_BITS</arg>&gt; is not declared.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 34: &lt;<arg fmt="%s" index="1">NUM_ARROWS_BITS</arg>&gt; is not declared.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 36: &lt;<arg fmt="%s" index="1">NUM_ARROWS_BITS</arg>&gt; is not declared.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 37: &lt;<arg fmt="%s" index="1">NUM_ARROWS_BITS</arg>&gt; is not declared.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 43: &lt;<arg fmt="%s" index="1">NUM_ARROWS_BITS</arg>&gt; is not declared.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 63: &lt;<arg fmt="%s" index="1">STATE_GAME</arg>&gt; is not declared.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 67: &lt;<arg fmt="%s" index="1">num3</arg>&gt; is not declared.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 68: &lt;<arg fmt="%s" index="1">num2</arg>&gt; is not declared.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 117: &lt;<arg fmt="%s" index="1">SEG_ZERO</arg>&gt; is not declared.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 118: &lt;<arg fmt="%s" index="1">SEG_ONE</arg>&gt; is not declared.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 119: &lt;<arg fmt="%s" index="1">SEG_TWO</arg>&gt; is not declared.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 120: &lt;<arg fmt="%s" index="1">SEG_THREE</arg>&gt; is not declared.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 121: &lt;<arg fmt="%s" index="1">SEG_FOUR</arg>&gt; is not declared.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="69" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 122: &lt;<arg fmt="%s" index="1">SEG_FIVE</arg>&gt; is not declared.
-</msg>
-
-<msg type="error" file="HDLCompiler" num="598" delta="old" >"\\psf\home\Desktop\CS-M152A-Final-Project\displayLivesModule.v" Line 21: Module &lt;<arg fmt="%s" index="1">displayLivesModule</arg>&gt; ignored due to previous errors.
-</msg>
-
 </messages>
 
