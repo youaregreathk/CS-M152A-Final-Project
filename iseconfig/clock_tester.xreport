@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2015-11-24T15:59:24</DateModified>
-  <ModuleName>main</ModuleName>
+  <DateModified>2015-11-25T16:13:51</DateModified>
+  <ModuleName>clock_tester</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/152/Desktop/CS521/v2/v2/iseconfig/clock_tester.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/152/Desktop/CS521/v2/v2</ImplementationReportsDirectory>
+  <SavedFilePath>Y:/Desktop/CS-M152A-Final-Project/iseconfig/clock_tester.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>Y:/Desktop/CS-M152A-Final-Project\</ImplementationReportsDirectory>
   <DateInitialized>2015-11-24T15:59:24</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

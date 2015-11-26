@@ -26,7 +26,7 @@ module displayLivesModule
 		// outputs
 		seg, an,
 		// inputs
-		clk, metronome_clk, state, cur_arrow0, cur_arrow1, cur_arrow2, cur_arrow3, lives
+		clk, metronome_clk, state, cur_arrow0, cur_arrow1, cur_arrow2, cur_arrow3
     );
 
 input clk;
@@ -36,11 +36,14 @@ input [NUM_ARROWS_BITS:0] cur_arrow3;
 input [NUM_ARROWS_BITS:0] cur_arrow2;
 input [NUM_ARROWS_BITS:0] cur_arrow1;
 input [NUM_ARROWS_BITS:0] cur_arrow0;
-input [2:0] lives = 3'b101;
+
+reg [2:0] lives = 3'b101;
 reg [NUM_ARROWS_BITS:0] num0;
 reg [NUM_ARROWS_BITS:0] num1;
 reg [NUM_ARROWS_BITS:0] num2;
 reg [NUM_ARROWS_BITS:0] num3;
+
+reg christine = 0;
 
 output [6:0] seg;
 output [3:0] an;
@@ -96,8 +99,13 @@ always @(posedge clk) begin
             end
             // convert nums to binary count
         end*/
-    endcase
-
+	endcase
+	
+	if(lives == 0) begin	//End game if lives is 0
+		lives <= 0;	
+	end else if(1 == 1) begin	//If move was incorrect
+		lives <= lives - 1;
+	end
 
 /*	numTracker = numTracker + 1;
 	case(numTracker)
@@ -126,7 +134,7 @@ always @(posedge clk) begin
         3: segToDisplay = SEG_THREE;
         4: segToDisplay = SEG_FOUR;
         5: segToDisplay = SEG_FIVE;
- /*       6: segToDisplay = SEG_SIX;
+ /*     6: segToDisplay = SEG_SIX;
         7: segToDisplay = SEG_SEVEN;
         8: segToDisplay = SEG_EIGHT;
         9: segToDisplay = SEG_NINE;

@@ -10,7 +10,7 @@ Total CPU time to Xst completion: 0.09 secs
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> Reading design: displayLivesModule.prj
 
@@ -45,11 +45,11 @@ Parsing verilog file "ddr_definitions.v" included at line 24.
 
 
 Total REAL time to Xst completion: 3.00 secs
-Total CPU time to Xst completion: 2.64 secs
+Total CPU time to Xst completion: 2.69 secs
  
 --> 
 
-Total memory usage is 137252 kilobytes
+Total memory usage is 137060 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
