@@ -18,7 +18,7 @@
 <msg type="error" file="ProjectMgmt" num="806" >&quot;<arg fmt="%s" index="1">ddr_definitions.v</arg>&quot; Line <arg fmt="%d" index="2">22</arg>. <arg fmt="%s" index="3">Syntax error near &quot;parameter&quot;.</arg>
 </msg>
 
-<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;Y:/Desktop/CS-M152A-Final-Project/music.v&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;Y:/Desktop/CS-M152A-Final-Project/divide_by12.v&quot; into library work</arg>
 </msg>
 
 </messages>

@@ -47,5 +47,4 @@ case(numer[5:2])
 	14: begin quotient = 4; remain_bit3_bit2 = 2;	end
 	15: begin quotient = 5; remain_bit3_bit2 = 0;	end
 endcase
-
 endmodule
