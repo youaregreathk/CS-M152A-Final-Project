@@ -4,7 +4,7 @@ module stateGenerator
 	// Outputs
 	output_state, display_combo_en,
 	// Inputs
-	btnR, clk, btnL, pauseSwitch,life
+	btnR, clk, btnL, pauseSwitch
 	);
 
 output [STATE_BITS:0] output_state;
@@ -13,7 +13,7 @@ output display_combo_en;
 input btnR; //reset
 input btnL; //display combo
 input pauseSwitch; //pause
-input [2:0] life;     //life
+
 input clk;
 
 
@@ -61,17 +61,11 @@ always @ (posedge clk or posedge async_displayCombo_i)
 // =================
 
 
-//assign  = Led<7>;
+
 
 
 always @ (posedge clk) //reset mode
     begin
-	     /*
-		  if(life > 3'b100)
-		    begin
-			   state <= STATE_PAUSE;
-			 end
-			 */
         if (pauseSwitch) //if is paused
             begin
                 if (rst)

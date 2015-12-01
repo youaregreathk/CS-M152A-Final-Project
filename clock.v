@@ -32,6 +32,8 @@ input [1:0] state;
 output oneHz_CLK;
 output display_CLK;
 
+
+
 //reg clk; // 128Hz clk
 // clk is 100,000,000Hz
 //always #781250 clk = ~clk;

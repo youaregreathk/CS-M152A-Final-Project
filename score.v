@@ -6,8 +6,7 @@ module score
     // inputs
     clk, correctHit, incorrectHit, state,
     // outputs
-    //score, comboCount, multiplier);
-	 score, comboCount, multiplier,life);
+    score, comboCount, multiplier);
 
 
 input clk;
@@ -18,9 +17,7 @@ input incorrectHit;
 output [13:0] score;
 output [13:0] comboCount;
 output [3:0] multiplier;
-output [2:0] life;
 
-reg [3:0] life_reg=0;
 reg [13:0] score_reg = 0;
 reg [3:0] multiplier_reg = 1;
 reg [13:0] combos = 0;
@@ -86,7 +83,6 @@ always @(posedge clk) begin
             multiplier_reg = 1;
         end
         STATE_GAME: begin 
-		      life_reg = life_reg + (is_posedge_incorrectHit);    //Incrmenet miss
             score_reg = score_reg + (is_posedge_correctHit * multiplier_reg);
             combos = combos + is_posedge_correctHit;
             
@@ -95,7 +91,6 @@ always @(posedge clk) begin
 	
 end
 
-assign life = life_reg;
 assign score = score_reg;
 assign comboCount = combos;
 assign multiplier = multiplier_reg;

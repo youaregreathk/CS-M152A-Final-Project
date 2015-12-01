@@ -27,9 +27,6 @@ module main
 						led, seg, an
     );
 
-// random settings
-parameter RANDOM_BITS = 6;
-
 input clk;
 input btnU;
 input btnD;
@@ -59,24 +56,16 @@ wire [3:0] multiplier;
 wire partialArrow;
 
 clock clkModule ( .clk(clk), .state(state), .oneHz_CLK(oneHz), .display_CLK(display));
-stateGenerator stateModule (.life(life),.output_state(state), .display_combo_en(combo_en), .clk(clk), .pauseSwitch(sw[0]), .btnR(btnR), .btnL(btnL));
+stateGenerator stateModule (.output_state(state), .display_combo_en(combo_en), .clk(clk), .pauseSwitch(sw[0]), .btnR(btnR), .btnL(btnL));
 random randomModule(.clk(oneHz), .sw(sw[7:1]), .random_num(randomNum), .random_arrow(randomArrow), .state(state));
-score scoreModule (.life(life),.clk(clk), .state(state), .multiplier(multiplier), .comboCount(comboCount), .score(score), .correctHit(correctHit), .incorrectHit(incorrectHit));
+score scoreModule (.clk(clk), .state(state), .multiplier(multiplier), .comboCount(comboCount), .score(score), .correctHit(correctHit), .incorrectHit(incorrectHit));
 arrow arrowModule(.state(state), .clk(clk), .metronome_clk(oneHz), .next_arrow(randomArrow), .arrow0(curArrow0), .arrow1(curArrow1), .arrow2(curArrow2), .arrow3(curArrow3));
 
 display displayModule (.seg(seg), .an(an), .clk(display), .metronome_clk(oneHz), .state(state),  .cur_arrow0(curArrow0), .cur_arrow1(curArrow1), .cur_arrow2(curArrow2), .cur_arrow3(curArrow3), .score(score), .comboCount(comboCount), .combo_enable(combo_en));
 collision collisionModule(.partialArrow(partialArrow), .clk(clk), .state(state), .metronome_clk(oneHz), .btnU(btnU), .btnD(btnD), .btnL(btnL), .btnR(btnR), .arrow(curArrow3), .correctHit(correctHit), .incorrectHit(incorrectHit));
-life displayLivesModule(.seg(seg), .an(an), .clk(display), .metronome_clk(oneHz), .state(state), .cur_arrow0(curArrow0), .cur_arrow1(curArrow1), .cur_arrow2(curArrow2), .cur_arrow3(curArrow3));
 //assign randomArrow = 15;
 //assign score = randomNum;
 //assign comboCount = 24;
-
-module displayLivesModule(
-		// outputs
-		seg, an,
-		// inputs
-		clk, metronome_clk, state, cur_arrow0, cur_arrow1, cur_arrow2, cur_arrow3, lives
-    );
 
 assign led[7] = multiplier[3];
 assign led[6] = multiplier[2];

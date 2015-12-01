@@ -18,10 +18,9 @@
 // Additional Comments: 
 //
 //////////////////////////////////////////////////////////////////////////////////
-module clock_tester
-`include "ddr_definitions.v"
-(
+module clock_tester(
     );
+`include "ddr_definitions.v"
 reg clk;
 reg btnR;
 reg btnL;

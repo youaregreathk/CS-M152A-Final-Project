@@ -125,6 +125,8 @@ always @(posedge clk) begin
     endcase
 end
 
+
+
 assign seg = segToDisplay;
 assign an = anToDisplay;
 	

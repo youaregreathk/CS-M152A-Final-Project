@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=C:\Users\MichaelShea\Desktop\v2\main.ncd
-OUTFILE=C:\Users\MichaelShea\Desktop\v2\main.bit
-FAMILY=Spartan6
-PART=xc6slx16-3csg324
-WORKINGDIR=C:\Users\MichaelShea\Desktop\v2
-LICENSE=WebPack
-USER_INFO=211101051_0_0_871
