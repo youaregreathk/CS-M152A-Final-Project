@@ -1,8 +1,0 @@
-verilog work "state.v"
-verilog work "score.v"
-verilog work "random.v"
-verilog work "display.v"
-verilog work "collision.v"
-verilog work "clock.v"
-verilog work "arrow.v"
-verilog work "main.v"

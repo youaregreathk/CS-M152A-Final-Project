@@ -1,0 +1,123 @@
+//! **************************************************************************
+// Written by: Map P.68d on Tue Dec 01 13:24:12 2015
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Up" LOCATE = SITE "A8" LEVEL 1;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "Left" LOCATE = SITE "C4" LEVEL 1;
+COMP "Down" LOCATE = SITE "C9" LEVEL 1;
+COMP "JA<0>" LOCATE = SITE "T12" LEVEL 1;
+COMP "JA<4>" LOCATE = SITE "M10" LEVEL 1;
+COMP "an<0>" LOCATE = SITE "N16" LEVEL 1;
+COMP "an<1>" LOCATE = SITE "N15" LEVEL 1;
+COMP "an<2>" LOCATE = SITE "P18" LEVEL 1;
+COMP "an<3>" LOCATE = SITE "P17" LEVEL 1;
+COMP "Right" LOCATE = SITE "D9" LEVEL 1;
+COMP "sw<0>" LOCATE = SITE "T10" LEVEL 1;
+COMP "sw<1>" LOCATE = SITE "T9" LEVEL 1;
+COMP "sw<2>" LOCATE = SITE "V9" LEVEL 1;
+COMP "sw<3>" LOCATE = SITE "M8" LEVEL 1;
+COMP "sw<4>" LOCATE = SITE "N8" LEVEL 1;
+COMP "sw<5>" LOCATE = SITE "U8" LEVEL 1;
+COMP "sw<6>" LOCATE = SITE "V8" LEVEL 1;
+COMP "sw<7>" LOCATE = SITE "T5" LEVEL 1;
+COMP "led<0>" LOCATE = SITE "U16" LEVEL 1;
+COMP "led<1>" LOCATE = SITE "V16" LEVEL 1;
+COMP "led<2>" LOCATE = SITE "U15" LEVEL 1;
+COMP "led<3>" LOCATE = SITE "V15" LEVEL 1;
+COMP "led<4>" LOCATE = SITE "M11" LEVEL 1;
+COMP "led<5>" LOCATE = SITE "N11" LEVEL 1;
+COMP "led<6>" LOCATE = SITE "R11" LEVEL 1;
+COMP "led<7>" LOCATE = SITE "T11" LEVEL 1;
+COMP "seg<0>" LOCATE = SITE "T17" LEVEL 1;
+COMP "seg<1>" LOCATE = SITE "T18" LEVEL 1;
+COMP "seg<2>" LOCATE = SITE "U17" LEVEL 1;
+COMP "seg<3>" LOCATE = SITE "U18" LEVEL 1;
+COMP "seg<4>" LOCATE = SITE "M14" LEVEL 1;
+COMP "seg<5>" LOCATE = SITE "N14" LEVEL 1;
+COMP "seg<6>" LOCATE = SITE "L14" LEVEL 1;
+PIN music_get_fullnote/Mram_address[7]_GND_19_o_wide_mux_1_OUT_pins<10> = BEL
+        "music_get_fullnote/Mram_address[7]_GND_19_o_wide_mux_1_OUT" PINNAME
+        CLKAWRCLK;
+TIMEGRP sys_clk_pin = BEL "firstclock/ScreenDivid_17" BEL
+        "firstclock/ScreenDivid_16" BEL "firstclock/ScreenDivid_18" BEL
+        "firstclock/ScreenDivid_14" BEL "firstclock/ScreenDivid_13" BEL
+        "firstclock/ScreenDivid_15" BEL "firstclock/ScreenDivid_11" BEL
+        "firstclock/ScreenDivid_10" BEL "firstclock/ScreenDivid_12" BEL
+        "firstclock/ScreenDivid_8" BEL "firstclock/ScreenDivid_7" BEL
+        "firstclock/ScreenDivid_9" BEL "firstclock/ScreenDivid_5" BEL
+        "firstclock/ScreenDivid_4" BEL "firstclock/ScreenDivid_6" BEL
+        "firstclock/ScreenDivid_2" BEL "firstclock/ScreenDivid_1" BEL
+        "firstclock/ScreenDivid_3" BEL "firstclock/ScreenDivid_0" BEL
+        "firstclock/DividOneHz_7" BEL "firstclock/DividOneHz_6" BEL
+        "firstclock/DividOneHz_5" BEL "firstclock/DividOneHz_4" BEL
+        "firstclock/DividOneHz_3" BEL "firstclock/DividOneHz_2" BEL
+        "firstclock/DividOneHz_1" BEL "firstclock/DividOneHz_0" BEL
+        "firstclock/OneHz_reg" BEL "firstclock/Screen_reg" BEL
+        "Findstate/state_0" BEL "Findstate/display_combo_reg" BEL
+        "Findstate/ShowComboReg_1" BEL "Findstate/ShowComboReg_0" BEL
+        "Findstate/Reset_tmp_reg_1" BEL "Findstate/Reset_tmp_reg_0" BEL
+        "Findscore/multiplier_reg_3" BEL "Findscore/multiplier_reg_2" BEL
+        "Findscore/multiplier_reg_1" BEL "Findscore/multiplier_reg_0" BEL
+        "Findscore/MMissed_0" BEL "Findscore/score_reg_13" BEL
+        "Findscore/score_reg_12" BEL "Findscore/score_reg_11" BEL
+        "Findscore/score_reg_10" BEL "Findscore/score_reg_9" BEL
+        "Findscore/score_reg_8" BEL "Findscore/score_reg_7" BEL
+        "Findscore/score_reg_6" BEL "Findscore/score_reg_5" BEL
+        "Findscore/score_reg_4" BEL "Findscore/score_reg_3" BEL
+        "Findscore/score_reg_2" BEL "Findscore/score_reg_1" BEL
+        "Findscore/score_reg_0" BEL "Findscore/combos_13" BEL
+        "Findscore/combos_12" BEL "Findscore/combos_11" BEL
+        "Findscore/combos_10" BEL "Findscore/combos_9" BEL
+        "Findscore/combos_8" BEL "Findscore/combos_7" BEL "Findscore/combos_6"
+        BEL "Findscore/combos_5" BEL "Findscore/combos_4" BEL
+        "Findscore/combos_3" BEL "Findscore/combos_2" BEL "Findscore/combos_1"
+        BEL "Findscore/combos_0" BEL "Findscore/HHit_0" BEL
+        "Findscore/isMissed" BEL "Findscore/isHit" BEL "Calarrow/clockReg_0"
+        BEL "Calarrow/Regtmp_4" BEL "Calarrow/Regtmp_2" BEL
+        "Calarrow/Regtmp_1" BEL "Calarrow/Regtmp_0" BEL "Calarrow/Reg1tmp_4"
+        BEL "Calarrow/Reg1tmp_2" BEL "Calarrow/Reg1tmp_1" BEL
+        "Calarrow/Reg1tmp_0" BEL "Calarrow/Reg2tmp_4" BEL "Calarrow/Reg2tmp_2"
+        BEL "Calarrow/Reg2tmp_1" BEL "Calarrow/Reg2tmp_0" BEL
+        "Calarrow/Isposclock" BEL "Calarrow/Reg3tmp_4" BEL
+        "Calarrow/Reg3tmp_2" BEL "Calarrow/Reg3tmp_1" BEL "Calarrow/Reg3tmp_0"
+        BEL "Calmatch/keysPressed_4" BEL "Calmatch/keysPressed_2" BEL
+        "Calmatch/keysPressed_1" BEL "Calmatch/keysPressed_0" BEL
+        "Calmatch/posedge_up_0" BEL "Calmatch/is_posedge_right" BEL
+        "Calmatch/posedge_right_0" BEL "Calmatch/posedge_left_0" BEL
+        "Calmatch/is_posedge_down" BEL "Calmatch/is_posedge_left" BEL
+        "Calmatch/is_posedge_up" BEL "Calmatch/posedge_down_0" BEL
+        "music/counter_octave_7" BEL "music/counter_octave_6" BEL
+        "music/counter_octave_5" BEL "music/counter_octave_4" BEL
+        "music/counter_octave_3" BEL "music/counter_octave_2" BEL
+        "music/counter_octave_1" BEL "music/counter_octave_0" BEL
+        "music/counter_note_8" BEL "music/counter_note_7" BEL
+        "music/counter_note_6" BEL "music/counter_note_5" BEL
+        "music/counter_note_4" BEL "music/counter_note_3" BEL
+        "music/counter_note_2" BEL "music/counter_note_1" BEL
+        "music/counter_note_0" BEL "music/tone_29" BEL "music/tone_28" BEL
+        "music/tone_27" BEL "music/tone_26" BEL "music/tone_25" BEL
+        "music/tone_24" BEL "music/tone_23" BEL "music/tone_22" BEL
+        "music/tone_21" BEL "music/tone_20" BEL "music/tone_19" BEL
+        "music/tone_18" BEL "music/tone_17" BEL "music/tone_16" BEL
+        "music/tone_15" BEL "music/tone_14" BEL "music/tone_13" BEL
+        "music/tone_12" BEL "music/tone_11" BEL "music/tone_10" BEL
+        "music/tone_9" BEL "music/tone_8" BEL "music/tone_7" BEL
+        "music/tone_6" BEL "music/tone_5" BEL "music/tone_4" BEL
+        "music/tone_3" BEL "music/tone_2" BEL "music/tone_1" BEL
+        "music/tone_0" BEL "music/speaker" BEL "Findstate/state_1" BEL
+        "Calmatch/incorrectHit_reg" BEL "Calmatch/correctHit_reg" BEL
+        "Calarrow/Isposclock_1" BEL "Calarrow/Isposclock_2" BEL
+        "clk_BUFGP/BUFG" PIN
+        "music_get_fullnote/Mram_address[7]_GND_19_o_wide_mux_1_OUT_pins<10>"
+        BEL "Findscore/Mshreg_MMissed_1" BEL "Findscore/MMissed_1" BEL
+        "Findscore/Mshreg_HHit_1" BEL "Findscore/HHit_1" BEL
+        "Calarrow/Mshreg_clockReg_1" BEL "Calarrow/clockReg_1" BEL
+        "Calmatch/Mshreg_posedge_up_1" BEL "Calmatch/posedge_up_1" BEL
+        "Calmatch/Mshreg_posedge_down_1" BEL "Calmatch/posedge_down_1" BEL
+        "Calmatch/Mshreg_posedge_right_1" BEL "Calmatch/posedge_right_1" BEL
+        "Calmatch/Mshreg_posedge_left_1" BEL "Calmatch/posedge_left_1";
+TS_sys_clk_pin = PERIOD TIMEGRP "sys_clk_pin" 100 MHz HIGH 50%;
+SCHEMATIC END;
+

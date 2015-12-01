@@ -1,0 +1,8 @@
+[Inputs]
+clk
+[Outputs]
+speaker
+[BiDir]
+[ATTRIBUTES]
+VeriModel music
+
