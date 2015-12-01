@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "Y:/Desktop/CS-M152A-Final-Project/clock_tester_isim_beh.exe" -prj "Y:/Desktop/CS-M152A-Final-Project/clock_tester_beh.prj" "work.clock_tester" "work.glbl" 

@@ -1,0 +1,8 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o Y:/Desktop/CS-M152A-Final-Project/clock_tester_isim_beh.exe -prj Y:/Desktop/CS-M152A-Final-Project/clock_tester_beh.prj work.clock_tester work.glbl 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "Y:/Desktop/CS-M152A-Final-Project/clock.v" into library work
+ERROR:HDLCompiler:806 - "ddr_definitions.v" Line 21: Syntax error near "module".
+Verilog file Y:/Desktop/CS-M152A-Final-Project/clock.v ignored due to errors

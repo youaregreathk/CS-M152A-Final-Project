@@ -90,6 +90,60 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1448932525" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1448932525">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448932525" xil_pn:in_ck="-348669652255056967" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1448932525">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="arrow.v"/>
+      <outfile xil_pn:name="clock.v"/>
+      <outfile xil_pn:name="clock_tester.v"/>
+      <outfile xil_pn:name="collision.v"/>
+      <outfile xil_pn:name="ddr_definitions.v"/>
+      <outfile xil_pn:name="display.v"/>
+      <outfile xil_pn:name="displayLivesModule.v"/>
+      <outfile xil_pn:name="divide_by12.v"/>
+      <outfile xil_pn:name="main.v"/>
+      <outfile xil_pn:name="music.v"/>
+      <outfile xil_pn:name="random.v"/>
+      <outfile xil_pn:name="score.v"/>
+      <outfile xil_pn:name="state.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1448932525" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="7901156860575486457" xil_pn:start_ts="1448932525">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448932525" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-2401218369364231241" xil_pn:start_ts="1448932525">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448932525" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="450776091990534534" xil_pn:start_ts="1448932525">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1448932525" xil_pn:in_ck="-348669652255056967" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1448932525">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="arrow.v"/>
+      <outfile xil_pn:name="clock.v"/>
+      <outfile xil_pn:name="clock_tester.v"/>
+      <outfile xil_pn:name="collision.v"/>
+      <outfile xil_pn:name="ddr_definitions.v"/>
+      <outfile xil_pn:name="display.v"/>
+      <outfile xil_pn:name="displayLivesModule.v"/>
+      <outfile xil_pn:name="divide_by12.v"/>
+      <outfile xil_pn:name="main.v"/>
+      <outfile xil_pn:name="music.v"/>
+      <outfile xil_pn:name="random.v"/>
+      <outfile xil_pn:name="score.v"/>
+      <outfile xil_pn:name="state.v"/>
+    </transform>
+    <transform xil_pn:end_ts="1448932528" xil_pn:in_ck="-348669652255056967" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-5679153421988410703" xil_pn:start_ts="1448932526">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
     <transform xil_pn:end_ts="1448437805" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1448437805">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>

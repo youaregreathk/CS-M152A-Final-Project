@@ -27,6 +27,9 @@ module main
 						led, seg, an
     );
 
+// random settings
+parameter RANDOM_BITS = 6;
+
 input clk;
 input btnU;
 input btnD;
