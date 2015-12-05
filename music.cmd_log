@@ -1,0 +1,5 @@
+vhdtdtfi -lib work C:/Users/152/Desktop/1203cs152/final/music.v -lang verilog -prj final -o music.spl -module music -template C:/Xilinx/14.6/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 music.spl C:/Users/152/Desktop/1203cs152/final/music.sym 
+vhdtdtfi -lib work C:/Users/152/Desktop/1203cs152/final/music.v -lang verilog -prj final -o music.spl -module music -template C:/Xilinx/14.6/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 music.spl C:/Users/152/Desktop/1203cs152/final/music.sym 
+vhdtdtfi -lang verilog -prj final -o C:/Users/152/Desktop/1203cs152/final/music.tfi -lib work C:/Users/152/Desktop/1203cs152/final//music.v -module music -template C:/Xilinx/14.6/ISE_DS/ISE//data/tfi.tft -deleteonerror 
